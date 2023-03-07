@@ -12,7 +12,7 @@ public class Item
     public Guid ItemTypeId { get; set; }
     [Required]
     [StringLength(50)]
-    [Display(Name ="Item Name")]
+    [Display(Name ="Cake Name")]
     public string ItemName { get; set; }
     public double Price { get; set; }
  

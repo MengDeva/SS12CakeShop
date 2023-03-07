@@ -6,7 +6,7 @@
 
 <h1>Edit</h1>
 
-<h4>ItemType</h4>
+<h4>Category</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,11 +14,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="ItemTypeId" />
             <div class="form-group">
-                <label asp-for="ItemTypeName" class="control-label"></label>
+                <label asp-for="ItemTypeName" class="control-label">Category Name</label>
                 <input asp-for="ItemTypeName" class="form-control" />
                 <span asp-validation-for="ItemTypeName" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group py-3">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>

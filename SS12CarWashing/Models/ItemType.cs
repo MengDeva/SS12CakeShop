@@ -8,6 +8,6 @@ public class ItemType
     public Guid ItemTypeId { get; set; }
     [Required]
     [MaxLength(50)]
-    [Display(Name = "Item Type Name")]
+    [Display(Name = "Category Name")]
     public string ItemTypeName { get; set; }
 }
